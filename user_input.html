@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--Corey Scott - CIT 253 Assignment 5 9/27/2020 -->
+<html lang="en">
+
+<head>
+    <title>CIT 253 - Corey Scott Assignment 5</title>
+    <meta charset="UTF-8">
+
+    <!--Bootstrap for styling-->
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+    <form action="display_user_info.php" method="POST">
+        <table class="table table-dark shadow p-3 mt-4">
+            <thead class="thead-light text-center">
+                <tr>
+                    <th class="display-4 font-weight-bold" colspan="2">Please Enter your Information:</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Please enter your full name:</td>
+                    <td><input type="text" class="form-control" name="fullName" placeholder="Name" required></td>
+                </tr>
+                <tr>
+                    <td>Telephon Number:</td>
+                    <td><input type="tel" class="form-control" name="phone" placeholder="Phone #" required></td>
+                </tr>
+                <tr>
+                    <td>Email Address:</td>
+                    <td><input type="email" class="form-control" name="email" placeholder="Email" required></td>
+                </tr>
+                <tr>
+                    <td>Notes:</td>
+                    <td><textarea  rows="5" class="form-control" name="notes" placeholder="Notes" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" class="btn btn-light" value="Submit Form"></td>
+                    <td><input type="reset" class="btn btn-light"></td> 
+                </tr>
+
+
+            </tbody>
+            
+            
+        </table>
+    </form>
+
+
+
+
+    </div>
+
+</body>
+
+<html>
+
+</html>
